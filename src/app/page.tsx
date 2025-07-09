@@ -10,12 +10,6 @@ export default function Home() {
   return (
     <section id="home">
       <NavBar />
-      {/* <Navbar >
-        <NavBody>
-          <NavbarLogo />
-          <NavItems items={navItems} className="text-l"/>
-        </NavBody>
-      </Navbar> */}
       <Hero />
       <Grid />
     </section>
